@@ -25,6 +25,9 @@ def main():
     arr = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
     ans = {True: "Yes", False: "No",}
     
+    print("Arr:", arr)
+    
+    print()
     print("Range test:")
     for i in range(0, 100):
         print("is {n} in arr? - {a}".format(n=i, a=ans[bin_search(arr, i)]))
